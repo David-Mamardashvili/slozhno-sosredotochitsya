@@ -77,7 +77,7 @@
 }
 
 header {
-  min-height: 100lvh;
+  height: 100lvh;
 }
 
 .header__content {
