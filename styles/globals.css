@@ -11,19 +11,22 @@
 body {
   max-inline-size: 1440px;  
   min-inline-size: 375px;
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: var(--font-family);
   font-size: 18px;
   font-style: normal;
   font-weight: 400; 
   line-height: 130%;
   color: var(--text-color);
+  margin: 0 auto;
 }
+
 .title-decor {
   color: var(--text-secondary);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 18px;
 }
+
 .title {
   color: var(--title-color-secondary);
   font-size: 18px;

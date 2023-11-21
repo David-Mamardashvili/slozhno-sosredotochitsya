@@ -19,9 +19,10 @@
   --title-color-secondary: var(--text-color);
   --title-shadow: #FF0070;
   --button-border-color: rgba(50, 49, 45, 0.40);
-  .header__rec {
-    display: none;
-  }
+}
+
+.page.theme_light .header__rec {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,7 +31,7 @@
     --text-color: #353430;
     --text-secondary: var(--text-color);
     --accent-color: #FF8DCB;
-    --accent-hover: border: 1px solid rgba(50, 49, 45, 0.40);
+    --accent-hover: rgba(50, 49, 45, 0.40);
     --title-color: #FFC2E6;
     --title-color-secondary: var(--text-color);
     --title-shadow: #FF0070;
@@ -38,7 +39,7 @@
     --button-border-color: rgba(50, 49, 45, 0.40);
   } 
 
-  .header__rec {
+  .page.theme_auto .header__rec {
     display: none;
   }
 }
